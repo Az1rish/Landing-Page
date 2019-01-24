@@ -1,0 +1,146 @@
+#header {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px 0px 20px;
+    background-color: white;
+}
+
+#form {
+    padding-top: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    margin: 0 25%;
+    text-align: center;
+}
+
+#form label {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+#email {
+    text-align: center;
+    margin: 5px 85px 0px 85px;
+}
+
+#submit {
+    padding: 5px;
+    margin: 0 100px;
+    background: #ffcc00;
+    font-weight: bold;
+}
+
+#features {
+    padding-top: 140px;
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+
+#presentation {
+    padding-top: 140px;
+}
+
+#pricing {
+    padding-top: 140px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+#footer {
+    text-align: right;
+}
+
+#footer p {
+    font-style: italic;
+    font-size: 0.9em;
+}
+
+.plan {
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    margin: 10px;
+    display: grid;
+    grid-template-rows: 30% 70%;
+    height: 250px;
+}
+
+.footer {
+    display: flex;
+    font-style: italic;
+}
+
+li {
+    display: flex;
+    padding-right: 20px;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.icon {
+    padding-left: 15%;
+}
+
+.description {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.plan-title {
+    background-color: #e6e6e6;
+    text-align: center;
+    font-weight: bold;
+    margin: 0px -21px;
+    padding: 10px 40px;
+}
+
+.pricing-plan {
+    text-align: center;
+    font-style: italic;
+    padding-top: 20px;
+}
+
+#bracelets {
+    padding: 0 8%;
+}
+
+#necklaces {
+    padding: 0 8%;
+}
+
+#rings {
+    padding: 0 8%;
+}
+
+a:link {
+    color: grey;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: hotpink;
+}
+
+a:active {
+    color: blue;
+}
+
+@media (max-width: 300px) {
+    a::active {
+        color: green;
+    }
+}
